@@ -1,0 +1,59 @@
+html{
+  scroll-behavior: smooth;
+}
+.contactform {
+  padding: 0 34px;
+  padding-top: 10px;
+  margin: 2px 200px;
+}
+
+.contact_field {
+  width: 55vw;
+  height: 68vh;
+  margin-top: 30px;
+}
+.contactform div {
+  padding: 15px 0px;
+  margin-left: 30px;
+}
+
+legend {
+  font-size: 2em;
+  margin-left: 50px;
+}
+
+input[type="email"],
+input[type="phone"] {
+  width: 20vw;
+  border-radius: 10px;
+  margin-top: 5px;
+  color: blue;
+  padding: 5px;
+  font-size: 15px;
+  outline: none;
+  border: 1px solid black;
+}
+input[type="email"]:focus,
+input[type="phone"]:focus {
+  border: 1px solid;
+}
+label {
+  font-size: 20px;
+}
+textarea {
+  resize: horizontal;
+  margin-top: 5px;
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid black;
+  padding: 5px;
+  color: blue;
+  font-size: 13px;
+}
+textarea:focus {
+  border: 1px solid blue;
+  color: blue;
+}
+.cont {
+  margin-left: 25px;
+}

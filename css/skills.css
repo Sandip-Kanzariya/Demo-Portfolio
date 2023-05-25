@@ -1,0 +1,120 @@
+html{
+  scroll-behavior: smooth;
+}
+/* skills css */
+.allskills {
+  margin: 35px 0px 0px 210px;
+}
+.allskills .title {
+  margin-bottom: 10px;
+}
+.skills-content {
+  display: flex;
+  /* border: 1px solid; */
+}
+.allskills .skills-content .left {
+  width: 20vw;
+  height: 30vh;
+  overflow: auto;
+}
+.allskills .skills-content .left .text {
+  font-size: 18px;
+  font-weight: bold;
+  overflow-y: auto;
+}
+.allskills .skills-content .left p {
+  font-size: 20px;
+}
+.allskills .skills-content .right {
+  /* width: 400px; */
+  width: 20vw;
+  height: 10vh;
+  margin-left: 20px;
+}
+.bars {
+  padding: 3px 5px 2px 5px;
+}
+.allskills .skills-content .right .bars {
+  margin-bottom: 15px;
+}
+.allskills .skills-content .right .info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+  justify-content: space-between;
+}
+.allskills .skills-content .right span {
+  font-weight: 600;
+  font-size: 15px;
+}
+.allskills .skills-content .right .line {
+  height: 5px;
+  width: 100%;
+  background-color: lightslategray;
+  position: relative;
+}
+
+.allskills .skills-content .right .line::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: crimson;
+}
+.skills-content .right .html::before {
+  width: 80%;
+}
+.skills-content .right .css::before {
+  width: 70%;
+}
+.skills-content .right .php::before {
+  width: 80%;
+}
+.skills-content .right .mysql::before {
+  width: 50%;
+}
+.skills-content .right .c::before {
+  width: 90%;
+}
+
+.skillbt {
+  margin-left: 18vw;
+  margin-right: 0px;
+}
+
+@media screen and (max-width: 900px) {
+  .skills-content {
+    display: block;
+  }
+  .allskills .skills-content .left {
+    width: 50vw;
+  }
+  .allskills {
+    margin: 35px 0px 0px 10vw;
+  }
+  .allskills .skills-content .right {
+    margin: 20px 0px 0px 0px;
+  }
+}
+
+.idea {
+  width: 70vw;
+  height: 25vh;
+  margin: 80px 0px 0px 205px;
+  display: flex;
+  border: 1px solid;
+  overflow: auto;
+}
+.idea h2 {
+  margin: 5px 0px 10px 0px;
+}
+
+.achiv,
+.startup {
+  /* border: 1px solid; */
+  width: 35vw;
+  margin: 5px;
+  font-size: 23px;
+  overflow: auto;
+}
